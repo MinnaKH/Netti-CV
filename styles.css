@@ -51,7 +51,7 @@ li a.active:hover{
 
 p {
     color: #002443;
-    font-size: 20px;
+    font-size: 16px;
     font-family: "Nunito Sans", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -71,7 +71,7 @@ p {
 
 h1 {
     color: #FFFFFF;
-    font-size: 28px;
+    font-size: 25px;
     font-family: "Poppins", system-ui;
     font-weight: 500;
     font-style: normal;
@@ -83,14 +83,13 @@ h1 {
 
 h2 {
     color: #FFFFFF;
-    font-size: 28px;
+    font-size: 23px;
     font-family: "Poppins", system-ui;
     font-weight: 500;
     font-style: normal;
     text-align: left;
     text-shadow: 1px 1px 2px #002443;
     background-color: rgb(138, 199, 200, 0.6);
-    <!-- rgb(152,215,194, 0.4); -->
     width: 100%;
     margin: 0;
     padding: 10px;
@@ -146,54 +145,3 @@ body {
         }
     } 
     
-<!--
-pyöreä kuva::
-border-radius: 50%;
-_______________--
-line-height: 25px; muuttaa tekstin korkeusväliä
-_____
-a {
-    color: #000;
-  }
-a:hover {
-    color: blue;
-} muuttaa linkin mustan linkin sniseksi kun hiiri päällä:
-_____
-#navbar {
-    position: fixed;
-    top: 0px;
-    left: 0px; elementin kiinnitys yläreunaan, pysyy siellä alas skrollatessa. Ehkä mobiiliin?
-____
-    #left {
-        float: left;
-        width: 50%;
-      }
-      #right {
-        float: right;
-        width: 40%;
-_____
-overlapping elements:
-.first {
-    background-color: red;
-    position: absolute;
-    z-index: 2
-  }
-  .second {
-    background-color: blue;
-    position: absolute;
-    left: 40px;
-    top: 50px;
-    z-index: 1;
-  }
-</style>
-
-<div class="first"></div>
-<div class="second"></div>
-_______
-{
-    background-image: linear-gradient(#0090B0, #ACCCCA);
-  }
-
-  background-image: url("tausta.jpg.jpg");
-  background-size: 100%;
--->
