@@ -109,6 +109,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 20%;
+    max-width: 200px;
     height: auto;
     border: 3px solid white;
     
