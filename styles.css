@@ -12,7 +12,7 @@ ul {
     border: 2px solid #002443;
 
     font-size: 18px;
-    font-family: "Poppins", system-ui;
+    font-family: "Poppins", Helvetica, system-ui;
     font-weight: 500;
     font-style: normal;
 }
@@ -52,7 +52,7 @@ li a.active:hover{
 p {
     color: #002443;
     font-size: 16px;
-    font-family: "Nunito Sans", sans-serif;
+    font-family: "Nunito Sans", Verdana, sans-serif;
     font-style: normal;
     font-variation-settings:
     "wdth" 100,
